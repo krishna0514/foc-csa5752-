@@ -1,0 +1,27 @@
+echo "Enter first string:"
+read str1
+
+echo "Enter second string:"
+read str2
+
+# check
+if [ "$str1" = "$str2" ]
+then
+  echo "Strings are equal."
+else
+  echo "Strings are not equal."
+fi
+out put
+$ sh equal.sh 
+Enter first string:
+Hello
+Enter second string:
+hello
+Strings are not equal.
+
+$ sh equal.sh 
+Enter first string:
+Hello
+Enter second string:
+Hello
+Strings are equal
